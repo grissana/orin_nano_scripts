@@ -1,1 +1,12 @@
-"# orin_nano_scripts" 
+# Clone the repository
+git clone https://github.com/yourusername/jetson-utilities.git
+cd jetson-utilities
+
+# Make scripts executable
+chmod +x *.sh
+
+# Install PyTorch (interactive)
+./install_pytorch.sh
+
+# Build OpenCV with CUDA (long process)
+./build_opencv.sh
